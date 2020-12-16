@@ -29,4 +29,8 @@ public class DefaultCountingOutRhymer {
     if (callCheck()) return ERROR;
     return numbers[total--];
   }
+
+  public int getTotal() {
+    return total;
+  }
 }
